@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/fontawesome-free-6.5.2-web (1)/fontawesome-free-6.5.2-web/css/all.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* font-family: 'Montserrat' sans-serif; */
+        }
+        @font-face{
+            font-family: 'Inter';
+            src: url(/Inter/Inter-VariableFont_opsz\,wght.ttf);
+
+        }
+        @font-face{
+            font-family: 'Montserrat';
+            src: url(/Montserrat/Montserrat-VariableFont_wght.ttf);
+
+        }
+        .bgcolo{
+            width: calc(100% - 40px);
+            height: fit-content;
+            padding: 30px 20px;
+            background-color: rgb(27, 13, 46);
+            font-size: 18px;
+            color: white;
+            text-align: center;   
+        }
+        .a{
+            width: 20px;
+            height: 20px;
+            padding: 11px 15px;
+            border-radius: 100%;
+            border: 1px solid purple;
+            color: white;
+            text-decoration: none;
+        }
+        .spa{
+            margin-left: 8px;
+            /* font-size: 16px; */
+        }
+        .the .spa{
+            opacity: 0;
+            transition: .5s;
+        }
+        .the:hover .spa{
+            opacity: 1;
+            margin-left: 15px;
+        }
+        .thet .spa{
+            opacity: 0;
+            transition: .5s;
+        }
+        .thet:hover .spa{
+            opacity: 1;
+            margin-left: 15px;
+        }
+        .maincontent{
+            width: 100%;
+            height: 100vh;
+            padding: 50px 0;
+            background-color: rgb(40, 20, 50);
+            font-family: 'Inter', sans-serif;
+            color: white;
+            font-weight: 210;
+        }
+        .h3{
+            font-weight: 210;
+            font-size: 35px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .fit{
+            width: fit-content;
+            height: fit-content;
+            margin: 0px auto;
+        }
+        .g{
+            width: 400px;
+            height: fit-content;
+            text-align: center;
+            line-height: 20px;
+            margin-top: 20px;
+            /* background-color: rgb(52, 101, 144); */
+            font-size: 13px;
+        }
+        .id{
+            width: 360px;
+            padding: 12px 20px;
+            font-size: 18px;
+            color: white;
+            height: fit-content;
+            /* border-bottom: 1px solid grey; */
+            outline: none;
+            border: none;
+            background-color: rgb(27, 13, 46);
+            margin-top: 40px;
+
+        }
+        .idi{
+            display: block;
+            width: 360px;
+            padding: 12px 20px;
+            font-size: 18px;
+            color: white;
+            height: fit-content;
+            /* border-bottom: 1px solid grey; */
+            outline: none;
+            border: none;
+            background-color: rgb(27, 13, 46);
+            margin-top: 40px;
+        }
+        .the{
+            color: white;
+            width: fit-content;
+            height: fit-content;
+            background-color: blueviolet;
+            padding: 12px 80px;
+            font-size: 14px;
+            text-decoration: none;
+            text-align: center;
+            margin: 0 auto; 
+            border-radius: 30px;
+            font-weight: 410;
+            
+        }
+        .thet{
+            color: white;
+            width: fit-content;
+            height: fit-content;
+            border: 1px solid blueviolet;
+            padding: 13px 55px;
+            font-size: 13px;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 30px;
+            font-weight: 410;
+            transition: 1s;
+            
+        }
+        .y{
+            margin: 50px; 
+            text-align: center;   
+        }
+        .yt{
+            margin: 50px; 
+            text-align: center; 
+                
+        }
+        .ist{
+            margin: 50px auto;
+            width: 390px;
+            height: fit-content;
+            text-align: center;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bgcolo">
+        <a href="/Rolls royce.html" class="a">
+            <i class="fa-solid fa-xmark"></i>
+        </a> 
+    </div>
+    <div class="maincontent">
+       <div class="fit">
+            <h3 class="h3">FIND A DEALER</h3>
+            <div class="g">
+                You will be directed to the page of our authorised dealers. 
+                </br>Rolls-Royce Motor Cars Limited accepts no liability or responsibility 
+                for the information, views, or opinions contained therein.
+            </div>
+            <input type="text" placeholder="City" class="id">
+            <input type="text" placeholder="Country" class="idi">
+            <div class="y">
+                <a href="" class="the">
+                    SEARCH  
+                    <span class="spa">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="yt">
+                <a href="" class="thet">
+                    USE MY LOCATION
+                    <span class="spa">
+                        <i class="fa-solid fa-sun"></i>
+                    </span>  
+                </a>
+            </div>
+            <div class="ist">
+                Could not connect to the reCAPTCHA service. Please 
+                check your internet connection and reload to get 
+                a reCAPTCHA challenge.
+            </div>
+
+
+       </div>
+    </div>
+</body>
+</html>
