@@ -17,22 +17,22 @@
      src: url(/Montserrat/Montserrat-VariableFont_wght.ttf);
  }
 
- .vb {
-     width: calc(100% - 40px);
-     position: relative;
-     height: 100vh;
-     padding: 30px 20px;
-     overflow: hidden;
- }
+.vb {
+    width: calc(100% - 40px);
+    height: calc(100vh - 60px);
+    padding: 30px 20px;
+    position: relative;
+    overflow: hidden;
+}
 
  .video {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
-     z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
  }
 
  .jenu {
@@ -193,7 +193,6 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-     /* background-color: black; */
      width: 100%;
      padding-bottom: 25px;
  }
@@ -286,7 +285,7 @@
  }
 
  .cull {
-     font-size: 70px;
+    font-size: 70px;
  }
 
  .in {
@@ -410,14 +409,14 @@
  }
 
  .vido {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
-     /* background-position: cover; */
-     z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* background-position: cover; */
+    z-index: -1;
  }
 
  .furjo {
@@ -443,8 +442,8 @@
 
  .antom {
      width: 100%;
-     height: 400px;
-    /* cursor: pointer; */
+     height: 420px;
+     /* cursor: pointer; */
 
  }
 
@@ -452,7 +451,7 @@
      margin-top: 40px;
      display: flex;
      width: 100%;
-     height: 550px;
+     height: fit-content;
      /* background-color: grey; */
      justify-content: space-between;
  }
@@ -492,6 +491,7 @@
      border-bottom: 1px solid grey;
      font-family: 'Inter', sans-serif;
  }
+
 
  .rroyce p:hover {
      cursor: pointer;
@@ -536,6 +536,20 @@
      /* text-transform: capitalize; */
      justify-content: space-between;
  }
+  .boyced {
+     width: 100%;
+     height: fit-content;
+     padding: 20px 0;
+     border-bottom: 1px solid grey;
+     font-family: 'Inter', sans-serif;
+     color: white;
+     line-height: 40px;
+     font-size: 13px;
+     font-weight: 350;
+     display: none;
+     /* text-transform: capitalize; */
+     justify-content: space-between;
+ }
 
  .rroyed {
      width: 100%;
@@ -558,53 +572,226 @@
      margin-left: 30px;
  }
 
- @media (max-width: 1200px) {
-    /* .menu {
-        color: blue;
+@media (max-width: 1200px) {
+
+
+     .vb {
+         width: calc(100% - 40px);
+         padding: 30px 20px;
+         /* overflow: hidden; */
+     }
+
+     .bl {
+         font-size: 25px;
+         margin-top: 140px auto;
+
+     }
+
+     .in {
+         font-size: 25px;
+         font-weight: lighter;
+     }
+
+     .cull {
+         font-size: 65px;
+     }
+
+     .disc {
+         font-size: 14px;
+         padding: 13px 50px;
+     }
+
+     .spe {
+         font-size: 65px;
+         /* color: lightblue; */
+     }
+
+     .speb {
+         font-size: 27px;
+     }
+
+     .sped {
+         font-size: 14px;
+         font-weight: 550px;
+         padding: 13px 50px;
+
+     }
+
+    .antom {
+        height: 370px;
+    }
+   
+
+
+}
+@media (max-width: 1100px) {
+
+    .antom{
+        height: 345px;
+    }
+    .bl {
+        font-size: 20px;
+        line-height: 60px;
+    }
+    .cull {
+        font-size: 55px;
+    }
+    .fl{
+        font-size: 20px;
+        line-height: 60px;
+        margin: 180px auto;
+    }
+    .spe {
+        font-size: 50px;
+    }
+
+     .speb {
+         font-size: 22px;
+    }
+    .jspe {
+        line-height: 55px;
+        margin: 200px auto;
+    }
+    .bodleft{
+        height: 500px;
+
+    }
+     .jenu{
+        width: calc(60% - 140px);
+
+    }
+   
+
+
+
+    
+}
+@media (max-width: 1030px) {
+
+    .antom{
+        height: 340px;
+    }
+     .bodleft{
+     height: 510px;
+
+    }
+}
+@media (max-width: 985px) {
+
+    .antom{
+        height: 330px;
+    }
+    .tomp {
+        padding-left: 15px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 960px) {
+
+     .antom{
+        height: 320px;
+    }
+    .bodleft{
+        height: 510px;
+    }
+}
+@media (max-width: 920px) {
+      .antom{
+        height: 310px;
+    }
+     .bodleft{
+        height: 500px;
+    }
+}
+@media (max-width: 900px) {
+
+    .antom{
+        height: 260px;
+    }
+    .bodleft{
+        height: 480px;
+    }
+    
+    /* .tom, .tomp{
+        padding-left: 16px;
     } */
+}
+@media (max-width: 785px) {
 
     .vb {
         width: calc(100% - 40px);
-        padding: 30px 20px;
-        /* overflow: hidden; */
+        height: calc(100vh - 40px);
+        padding: 20px 20px;
     }
-    .bl{
-        font-size: 25px;
-        margin-top: 140px auto;
+    .ui{
+        padding-bottom: 15px;
+    }
+    .wid {
+        width: 65px;
+        height: 55px;
+    }
 
+    .lex{
+        display: flex;
+        flex-direction: column;
+        gap: 100px 0;
     }
-    .in{
-        font-size: 25px;
-        font-weight: lighter;
+    .furjo{
+        height: fit-content;
     }
-    .cull{
-        font-size: 65px;
-    }
-    .disc{
-        font-size: 14px;
-        padding: 13px 50px;
-    }
-    .spe{
-        font-size: 65px;
-        /* color: lightblue; */
-    }
-    .speb{
-        font-size: 27px;
-    }
-    .sped{
-        font-size: 14px;
-        font-weight: 550px;
-        padding: 13px 50px;
-
+    .bodleft{
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 10px;
     }
     .antom{
-        height: 370px;
+        height: 450px;
     }
-    /* .fl{
+    .ida{
+        display: none;
+    }
+    .rroyced{
+        display: none;
+    }
+    .boyced{
+        display: flex;
+    }
+     .jenu{
+        width: calc(70% - 140px);
 
-    } */
-    /* .ui{
-        background-color: black;
-    } */
- }
+    }
+}
+@media (max-width: 600px) {
+    .bl {
+        font-size: 18px;
+        line-height: 60px;
+        margin: 120px auto;
+        /* line-height: 50px; */
+    }
+    .mop{
+        font-size: 18px;
+    }
+    .cull {
+        font-size: 45px;
+    }
+     .fl {
+        font-size: 18px;
+        line-height: 60px;
+        margin: 150px auto;
+    }
+    .spe{
+        font-size: 23px;
+    }
+    .speb{
+        font-size: 25px;
+    }
+    .jspe{
+        line-height: 47px;
+    }
+     .jenu{
+        width: calc(100% - 140px);
 
+    }
+
+}
